@@ -117,9 +117,10 @@ Choose your API and click the 'Settings' panel.
 
 Scroll down to the section titled 'RBAC Settings'.
 
-Ensure the following settings are enabled:
-	-Enable RBAC
-	- Add Permissions in the Access Token
+Ensure the following settings are **enabled**:
+
+- Enable RBAC
+- Add Permissions in the Access Token
 
 Your ASP.NET code should now be able to examine these permissions correctly.
 
