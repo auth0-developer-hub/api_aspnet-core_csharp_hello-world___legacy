@@ -111,6 +111,19 @@ The `/admin` endpoint requires the access token to contain the `read:admin-messa
 
 You can use the Auth0 Dashboard to create an `admin` role and assign it the`read:admin-messages` permission. Then, you can assign the `admin` role to any user that you want to access the `/admin` endpoint.
 
+You can assign these permissions by going to the Auth0 Dashboard.
+
+Choose your API and click the 'Settings' panel.
+
+Scroll down to the section titled 'RBAC Settings'.
+
+Ensure the following settings are **enabled**:
+
+- Enable RBAC
+- Add Permissions in the Access Token
+
+Your ASP.NET code should now be able to examine these permissions correctly.
+
 ## API Endpoints
 
 ### 🔓 Get public message
