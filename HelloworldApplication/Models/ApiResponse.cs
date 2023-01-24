@@ -1,12 +1,3 @@
-﻿namespace HelloworldApplication.Models
-{
-  public class ApiResponse
-  {
-    public ApiResponse(string message)
-    {
-      Message = message;
-    }
+﻿namespace HelloworldApplication.Models;
 
-    public string Message { get; set; }
-  }
-}
+public record ApiResponse(string Message);
